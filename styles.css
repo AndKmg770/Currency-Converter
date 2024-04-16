@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body
+{
+    font-family: "Open Sans",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.currconvtable
+{
+    align-items: center;
+    border-style: none;
+    border-spacing: 30px 30px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+.currconvtable th
+{
+    text-align: center;
+}
+
+#enteramount
+{
+    background-color: red;
+    color: white;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+#converttext
+{
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+#USD
+{
+    border-style: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+    padding: 0px 10px 0px 10px;
+}
+
+#INR
+{
+    border-style: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+    padding: 0px 10px 0px 10px;
+}
